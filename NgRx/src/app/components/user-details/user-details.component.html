@@ -1,0 +1,19 @@
+<div class="mt-5">
+  <ng-container *ngIf="user">
+    <table class="table table-bordered w-auto">
+      <tbody>
+        <tr>
+          <th>Name:</th>
+          <td>{{ user?.name }}</td>
+        </tr>
+        <tr>
+          <th>Card Number: </th>
+          <td>{{ user?.cardNumber }}</td>
+        <tr>
+          <th>Card Type: </th>
+          <td>{{ user?.cardType }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </ng-container>
+</div>

@@ -1,0 +1,38 @@
+@url = http://localhost:5000/api
+@apiUrl = http://localhost:5000/api/heroes
+
+###
+GET {{url}}
+
+###
+GET {{apiUrl}}
+
+###
+POST {{apiUrl}}
+Content-Type: application/json
+
+{
+    "name": "Hero #1"    
+}
+
+###
+POST {{apiUrl}}
+Content-Type: application/json
+
+{
+    "name": "Hero #2"    
+}
+
+###
+GET {{apiUrl}}/1
+
+###
+PUT {{apiUrl}}/1
+Content-Type: application/json
+
+{
+    "name": "Hero #1 update"
+}
+
+###
+DELETE {{apiUrl}}/2

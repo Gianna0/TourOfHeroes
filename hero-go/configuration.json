@@ -1,0 +1,5 @@
+{
+    "bindAddr": ":5000",
+    "connectionString": "file::memory:?cache=shared",
+    "distPath": "wwwroot"
+}

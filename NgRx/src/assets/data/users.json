@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Luis Suarez",
+        "cardNumber": "2323-0000-2222-4321",
+        "cardType": "Visa"
+      },
+      {
+        "id": 2,
+        "name": "Lucas Torreira",
+        "cardNumber": "4443-3232-5555-1369",
+        "cardType": "Master"
+      },
+      {
+        "id": 3,
+        "name": "Edison Cavani",
+        "cardNumber": "3322-3232-2121-8888",
+        "cardType": "Visa"
+      }
+    ]
+  }
